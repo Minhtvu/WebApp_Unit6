@@ -11,6 +11,12 @@
 </head>
 <body class="bg-secondary">
 
+<script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip(); 
+});
+</script>
+
 <div class="container-fluid row">
 <div class="col-sm-8">
   <div class="border border-dark border-bottom-0 bg-primary p-4 my-3 lead text-white rounded-top">
@@ -68,7 +74,7 @@
 <div class="col-sm-4 p-4 my-3 border border-dark rounded bg-light">
 	<h2>Outside of School:</h2>
 	<p>Other than school I enjoy the occasional trip to the gym and some online gaming.
-	My favorite game at the moment would have to be Playerunknown's Battlegrounds. Im not the best
+	My favorite game at the moment would have to be <a href="#" data-toggle="tooltip" title="Playerunknown's Battlegrounds">PUBG</a>. Im not the best
 	at it by any means but it's very fun and a good way to get my mind off school for a while.</p>
 	<p>I also enjoy the occasional drink (if you know what I mean). You can usually catch me at Jackson's on a Friday night, 
 	mostly because of the special. Location is below. Say hi if you see me and I'm still functional.</p>
