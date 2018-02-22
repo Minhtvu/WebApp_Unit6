@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Something about Minh</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <style>
+    #hobbyimage {
+      display:flex;
+      flex-direction:row;
+      justify-content: center;
+      overflow:hidden;
+    }
+    .hobbyimage {
+      object-fit:cover;
+      border: 1px solid black;
+      width: 15%;
+      height: 150px;
+      margin: 2%;
+    }
+    #artimage {
+      display:flex;
+      flex-direction:row;
+      justify-content: center;
+      overflow:hidden;
+    }
+    .artimage {
+      object-fit:cover;
+      border: 1px solid black;
+      width: 15%;
+      height: 150px;
+      margin: 2%;
+    }
+    #myPictures.carousel.slide {
+	    background-color: black;
+      width: 100%;
+    }
+
+    .carousel-inner {
+    	height: 519px;
+    	width: 80%;
+    	margin-left: 10%;
+    	background-color: black;
+    }
+    #pic0{
+      height:100%;
+      width: 70%;
+      margin:auto;
+    }
+    #pic1{
+      height:100%;
+      width: 70%;
+      margin-left: 400px;
+    }
+    #pic3{
+      height:100%;
+      width: 70%;
+      margin-left: 220px;
+    }
+    #pic4{
+      height:100%;
+      width: 70%;
+      margin-left: 350px;
+    }
+    .carousel-inner img {
+       margin: auto;
+       width: auto;
+       height: 100%;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <a class="navbar-brand" href="#">
+      <img src="images/003.jpg" alt="logo" style="width:40px;">
+    </a>
+  <!-- Links -->
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="collapse" data-target="#aboutme">About me</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="collapse" data-target="#schedule">My schedule</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="collapse" data-target="#hobby">My hobby</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="collapse" data-target="#artwork">My artwork</a>
+      </li>
+    </ul>
+  </nav>
+  <div id="aboutme" class="collapse">
+    <h2 style="margin:5px"> About me </h2>
+    <p style="margin:5px"> I am originally come from Vietnam and currently I am doing my Master in Computer Science. I will be graduating
+      in May 2018 and will be working in Singapore.</p>
+  </div>
+  <div id="schedule" class="collapse">
+    <h2 style="margin:5px"> Class Schedule of Spring 2018 </h2>
+    <table class="table table-dark table-hover">
+     <thead>
+       <tr>
+         <th>CRN</th>
+         <th>Course Name</th>
+         <th colspan="2">Date/Time</th>
+       </tr>
+     </thead>
+     <tbody>
+       <tr>
+         <td>CSCI 564</td>
+         <td>Advanced Computer Architecture</td>
+         <td>TTH</td>
+     <td>2:00pm-3:15pm</td>
+       </tr>
+     <tr>
+         <td>CSCI 598B</td>
+         <td>Linguistic Human-Robotic Interaction</td>
+         <td>TTH</td>
+     <td>12:30pm - 1:45pm</td>
+       </tr>
+     <tr>
+         <td>CSCI 446</td>
+         <td>Web Applications</td>
+         <td>Online</td>
+     <td></td>
+       </tr>
+     </tbody>
+   </table>
+  </div>
+  <div id="hobby" class="collapse">
+    <h2 style="margin:5px"> My hobby </h2>
+    <p style="margin:5px"> I love playing soccer and computer games, especially MMORPG games. I am also moderator of MU Online Game.</p>
+    <div id="hobbyimage">
+      <img class="hobbyimage" class="img-fluid" src="images/004.JPG" class="rounded" alt="MU-online">
+      <img class="hobbyimage" class="img-fluid" src="images/005.JPG" class="rounded" alt="MU-online">
+      <img class="hobbyimage" class="img-fluid" src="images/007.JPG" class="rounded" alt="MU-online">
+      <img class="hobbyimage" class="img-fluid" src="images/008.JPG" class="rounded" alt="MU-online">
+      <img class="hobbyimage" class="img-fluid" src="images/009.JPG" class="rounded" alt="MU-online">
+    </div>
+  </div>
+  <div id="artwork" class="collapse">
+    <h2 style="margin:5px"> My artwork </h2>
+    <p style="margin:5px"> "This skin and born is a rental"</p>
+    <img class="artimage" class="img-fluid" src="images/015.JPG" class="rounded" alt="art-work">
+    <img class="artimage" class="img-fluid" src="images/016.JPG" class="rounded" alt="art-work">
+    <img class="artimage" class="img-fluid" src="images/017.JPG" class="rounded" alt="art-work">
+    <img class="artimage" class="img-fluid" src="images/018.JPG" class="rounded" alt="art-work">
+    <img class="artimage" class="img-fluid" src="images/019.JPG" class="rounded" alt="art-work">
+    <img class="artimage" class="img-fluid" src="images/020.JPG" class="rounded" alt="art-work">
+    <img class="artimage" class="img-fluid" src="images/021.JPG" class="rounded" alt="art-work">
+    <img class="artimage" class="img-fluid" src="images/022.JPG" class="rounded" alt="art-work">
+    <img class="artimage" class="img-fluid" src="images/023.JPG" class="rounded" alt="art-work">
+    <img class="artimage" class="img-fluid" src="images/024.JPG" class="rounded" alt="art-work">
+  </div>
+  <div id="myPictures" class="carousel slide" data-ride="carousel">
+
+    <!-- Indicators -->
+    <ul class="carousel-indicators">
+      <li data-target="#myPictures" data-slide-to="0" class="active"></li>
+      <li data-target="#myPictures" data-slide-to="1"></li>
+      <li data-target="#myPictures" data-slide-to="2"></li>
+      <li data-target="#myPictures" data-slide-to="3"></li>
+    </ul>
+
+    <!-- The slideshow -->
+    <div class="carousel-inner">
+      <div class="carousel-item active" id="pic0">
+        <img src="images/010.JPG" alt="Minh">
+      </div>
+      <div class="carousel-item" id="pic1">
+        <img src="images/011.JPG" alt="Minh">
+      </div>
+  	  <div class="carousel-item" id="pic3">
+        <img src="images/013.JPG" alt="Minh">
+      </div>
+      <div class="carousel-item" id="pic4">
+        <img src="images/014.JPG" alt="Minh">
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="carousel-control-prev" href="#myPictures" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#myPictures" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+
+  </div>
+</body>
+</html>
